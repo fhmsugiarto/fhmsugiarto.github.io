@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+
+* {
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: url(/img/baymax.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 110vh;
+    width: 100%;
+}
+
+header {
+    position: fixed;
+    background-color: black;
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-around;
+}
+
+header .logo {
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 60px;
+}
+
+header nav {
+    float: right;
+}
+
+header nav ul {
+    display: flex;
+    list-style: none;
+    text-decoration: none;
+}
+
+header nav ul li a {
+    display: flex;
+    justify-content: space-around;
+    padding-left: 30px;
+    color: white;
+}
+
+header nav ul li a:hover {
+    font-size: 19px;
+    color: #DA1212;
+
+}
+
+#home {
+    font-size: 30px;
+    align-items: center;
+    padding-top: 200px;
+    padding-left: 10%;
+    height: 75vh;
+}
+
+#btn-about {
+    padding: 10px 20px;
+    font-size: 15px;
+    color: white;
+    margin-left: 100px;
+    background-color: black;
+    border-radius: 20px;
+}
+
+#btn-about:hover {
+    transform: scale(1.2);
+}
+
+#about {
+    padding-top: 70px;
+    height: 600px;
+    display: flex;
+    background-color: #c02428;
+}
+
+#about h1 {
+    font-size: 40px;
+}
+
+#about-text {
+    margin-top: 50px;
+    margin-left: 50px;
+    font-size: 20px;
+}
